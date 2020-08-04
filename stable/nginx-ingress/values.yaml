@@ -4,7 +4,7 @@
 controller:
   name: controller
   image:
-    repository: registry.suse.com/sles12/nginx-ingress-controller
+    repository: registry.suse.de/devel/caasp/4.5/containers/containers/caasp/v4.5/ingress-nginx-controller
     tag: "0.15.0"
     pullPolicy: IfNotPresent
     runAsUser: 33
@@ -448,7 +448,7 @@ defaultBackend:
 
   name: default-backend
   image:
-    repository: registry.suse.com/sles12/default-http-backend
+    repository: registry.suse.de/devel/caasp/4.5/containers/containers/caasp/v4.5/default-http-backend
     tag: "0.15.0"
     pullPolicy: IfNotPresent
 
